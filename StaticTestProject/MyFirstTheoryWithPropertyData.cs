@@ -17,13 +17,20 @@ namespace StaticTestProject
             Assert.Equal(expectedCount, actualCount);
         }
 
+        private static List<object[]> _splitCountDataValues = null;
+
         public static IEnumerable<object[]> SplitCountData
         {
             get
             {
-                return Enumerable
-                    .Range(0, 10000)
-                    .Select(i => new object[] { i.ToString(), 1 });
+                if (_splitCountDataValues == null)
+                {
+                    _splitCountDataValues = Enumerable
+                        .Range(0, 5000)
+                        .Select(i => new object[] { i.ToString(), 1 })
+                        .ToList();
+                }
+                return _splitCountDataValues;
             }
         }
     }
