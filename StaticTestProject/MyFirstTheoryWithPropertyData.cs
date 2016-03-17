@@ -10,27 +10,27 @@ namespace StaticTestProject
 {
     public class MyFirstTheoryWithPropertyData
     {
-        [Theory, MemberData("SplitCountData")]
-        public void SplitCount(string input, int expectedCount)
+        [Theory]
+        [MemberData("TestValues")]
+        public void SplitCount(string val1, bool val2)
         {
-            var actualCount = input.Split(' ').Count();
-            Assert.Equal(expectedCount, actualCount);
+            Assert.True(true);
         }
 
-        private static List<object[]> _splitCountDataValues = null;
+        private static List<object[]> _testValues = null;
 
-        public static IEnumerable<object[]> SplitCountData
+        public static IEnumerable<object[]> TestValues
         {
             get
             {
-                if (_splitCountDataValues == null)
+                if (_testValues == null)
                 {
-                    _splitCountDataValues = Enumerable
-                        .Range(0, 5000)
-                        .Select(i => new object[] { i.ToString(), 1 })
+                    _testValues = Enumerable
+                        .Range(0, 3)
+                        .Select(i => new object[] { i.ToString(), true })
                         .ToList();
                 }
-                return _splitCountDataValues;
+                return _testValues;
             }
         }
     }
