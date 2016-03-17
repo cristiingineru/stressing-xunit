@@ -11,21 +11,21 @@ namespace Generator
     {
         static void Main(string[] args)
         {
-            var theoryCount = 100;
-            var inlineDataCountForEachTheory = 5;
+            var theoryCount = 3;
+            var memberDataCountForEachTheory = 5;
             var file = @"..\..\..\WithGeneratedContent\Generated.cs";
 
-            var fileContent = Generate(theoryCount, inlineDataCountForEachTheory);
+            var fileContent = Generate(theoryCount, memberDataCountForEachTheory);
 
             File.Delete(file);
             File.WriteAllText(file, fileContent);
         }
 
-        private static string Generate(int theoryCount, int inlineDataCountForEachTheory)
+        private static string Generate(int theoryCount, int memberDataCountForEachTheory)
         {
             var facts = Enumerable
                 .Range(0, theoryCount)
-                .Select(i => GenerateTheory(i, inlineDataCountForEachTheory))
+                .Select(GenerateTheory)
                 .Aggregate(string.Empty, string.Concat);
 
             return @"
@@ -40,20 +40,33 @@ namespace StaticTestProject
 {
     public class Generated
     {" + facts + @"
+
+        private static List<object[]> _testValues = null;
+
+        public static IEnumerable<object[]> TestValues
+        {
+            get
+            {
+                if (_testValues == null)
+                {
+                    _testValues = Enumerable
+                        .Range(0, " + memberDataCountForEachTheory + @")
+                        .Select(i => new object[] { i.ToString(), true })
+                        .ToList();
+                }
+                return _testValues;
+            }
+        }
     }
 }";
         }
 
-        private static string GenerateTheory(int id, int inlineDataCountForEachTheory)
+        private static string GenerateTheory(int id)
         {
-            var inlineDatas = Enumerable
-                .Range(0, inlineDataCountForEachTheory)
-                .Select(i => Environment.NewLine + "        " + "[InlineData(" + i + ")]")
-                .Aggregate(string.Concat);
-
             return @"
-        [Theory]" + inlineDatas + @"
-        public void PassingTest" + id + @"(int value)
+        [Theory]
+        [MemberData(""TestValues"")]
+        public void PassingTest" + id + @"(string val1, bool val2)
         {
             Assert.True(true);
         }";
