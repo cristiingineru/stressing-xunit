@@ -11,7 +11,7 @@ namespace Generator
     {
         static void Main(string[] args)
         {
-            var factCount = 300;
+            var factCount = 3;
             var file = @"..\..\..\WithGeneratedContent\Generated.cs";
 
             var fileContent = Generate(factCount);
@@ -22,9 +22,9 @@ namespace Generator
 
         private static string Generate(int factCount)
         {
-            var facts = Enumerable
+            var testMethods = Enumerable
                 .Range(0, factCount)
-                .Select(GenerateFact)
+                .Select(GenerateTestMethod)
                 .Aggregate(string.Empty, string.Concat);
 
             return @"
@@ -33,23 +33,24 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Xunit;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace StaticTestProject
 {
+    [TestClass]
     public class Generated
-    {" + facts + @"
+    {" + testMethods + @"
     }
 }";
         }
 
-        private static string GenerateFact(int id)
+        private static string GenerateTestMethod(int id)
         {
             return @"
-        [Fact]
+        [TestMethod]
         public void PassingTest" + id + @"()
         {
-            Assert.True(true);
+            Assert.IsTrue(true);
         }";
         }
     }
