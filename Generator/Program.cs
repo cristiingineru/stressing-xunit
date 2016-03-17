@@ -11,20 +11,21 @@ namespace Generator
     {
         static void Main(string[] args)
         {
-            var factCount = 300;
+            var theoryCount = 100;
+            var inlineDataCountForEachTheory = 5;
             var file = @"..\..\..\WithGeneratedContent\Generated.cs";
 
-            var fileContent = Generate(factCount);
+            var fileContent = Generate(theoryCount, inlineDataCountForEachTheory);
 
             File.Delete(file);
             File.WriteAllText(file, fileContent);
         }
 
-        private static string Generate(int factCount)
+        private static string Generate(int theoryCount, int inlineDataCountForEachTheory)
         {
             var facts = Enumerable
-                .Range(0, factCount)
-                .Select(GenerateFact)
+                .Range(0, theoryCount)
+                .Select(i => GenerateTheory(i, inlineDataCountForEachTheory))
                 .Aggregate(string.Empty, string.Concat);
 
             return @"
@@ -43,11 +44,16 @@ namespace StaticTestProject
 }";
         }
 
-        private static string GenerateFact(int id)
+        private static string GenerateTheory(int id, int inlineDataCountForEachTheory)
         {
+            var inlineDatas = Enumerable
+                .Range(0, inlineDataCountForEachTheory)
+                .Select(i => Environment.NewLine + "        " + "[InlineData(" + i + ")]")
+                .Aggregate(string.Concat);
+
             return @"
-        [Fact]
-        public void PassingTest" + id + @"()
+        [Theory]" + inlineDatas + @"
+        public void PassingTest" + id + @"(int value)
         {
             Assert.True(true);
         }";

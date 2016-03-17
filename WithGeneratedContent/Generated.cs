@@ -10,1503 +10,1003 @@ namespace StaticTestProject
 {
     public class Generated
     {
-        [Fact]
-        public void PassingTest0()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest0(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest1()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest1(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest2()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest2(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest3()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest3(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest4()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest4(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest5()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest5(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest6()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest6(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest7()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest7(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest8()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest8(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest9()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest9(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest10()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest10(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest11()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest11(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest12()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest12(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest13()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest13(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest14()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest14(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest15()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest15(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest16()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest16(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest17()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest17(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest18()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest18(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest19()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest19(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest20()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest20(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest21()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest21(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest22()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest22(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest23()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest23(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest24()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest24(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest25()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest25(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest26()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest26(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest27()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest27(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest28()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest28(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest29()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest29(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest30()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest30(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest31()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest31(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest32()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest32(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest33()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest33(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest34()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest34(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest35()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest35(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest36()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest36(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest37()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest37(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest38()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest38(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest39()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest39(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest40()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest40(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest41()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest41(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest42()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest42(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest43()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest43(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest44()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest44(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest45()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest45(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest46()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest46(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest47()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest47(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest48()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest48(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest49()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest49(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest50()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest50(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest51()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest51(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest52()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest52(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest53()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest53(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest54()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest54(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest55()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest55(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest56()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest56(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest57()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest57(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest58()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest58(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest59()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest59(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest60()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest60(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest61()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest61(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest62()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest62(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest63()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest63(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest64()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest64(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest65()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest65(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest66()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest66(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest67()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest67(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest68()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest68(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest69()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest69(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest70()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest70(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest71()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest71(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest72()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest72(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest73()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest73(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest74()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest74(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest75()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest75(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest76()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest76(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest77()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest77(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest78()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest78(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest79()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest79(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest80()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest80(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest81()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest81(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest82()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest82(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest83()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest83(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest84()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest84(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest85()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest85(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest86()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest86(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest87()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest87(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest88()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest88(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest89()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest89(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest90()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest90(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest91()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest91(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest92()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest92(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest93()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest93(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest94()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest94(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest95()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest95(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest96()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest96(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest97()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest97(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest98()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest98(int value)
         {
             Assert.True(true);
         }
-        [Fact]
-        public void PassingTest99()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest100()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest101()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest102()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest103()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest104()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest105()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest106()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest107()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest108()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest109()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest110()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest111()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest112()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest113()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest114()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest115()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest116()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest117()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest118()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest119()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest120()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest121()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest122()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest123()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest124()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest125()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest126()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest127()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest128()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest129()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest130()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest131()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest132()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest133()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest134()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest135()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest136()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest137()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest138()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest139()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest140()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest141()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest142()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest143()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest144()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest145()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest146()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest147()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest148()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest149()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest150()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest151()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest152()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest153()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest154()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest155()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest156()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest157()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest158()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest159()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest160()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest161()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest162()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest163()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest164()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest165()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest166()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest167()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest168()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest169()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest170()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest171()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest172()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest173()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest174()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest175()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest176()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest177()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest178()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest179()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest180()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest181()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest182()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest183()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest184()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest185()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest186()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest187()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest188()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest189()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest190()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest191()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest192()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest193()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest194()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest195()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest196()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest197()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest198()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest199()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest200()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest201()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest202()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest203()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest204()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest205()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest206()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest207()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest208()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest209()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest210()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest211()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest212()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest213()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest214()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest215()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest216()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest217()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest218()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest219()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest220()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest221()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest222()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest223()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest224()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest225()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest226()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest227()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest228()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest229()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest230()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest231()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest232()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest233()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest234()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest235()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest236()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest237()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest238()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest239()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest240()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest241()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest242()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest243()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest244()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest245()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest246()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest247()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest248()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest249()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest250()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest251()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest252()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest253()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest254()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest255()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest256()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest257()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest258()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest259()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest260()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest261()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest262()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest263()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest264()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest265()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest266()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest267()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest268()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest269()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest270()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest271()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest272()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest273()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest274()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest275()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest276()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest277()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest278()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest279()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest280()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest281()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest282()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest283()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest284()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest285()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest286()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest287()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest288()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest289()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest290()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest291()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest292()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest293()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest294()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest295()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest296()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest297()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest298()
-        {
-            Assert.True(true);
-        }
-        [Fact]
-        public void PassingTest299()
+        [Theory]
+        [InlineData(0)]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        [InlineData(4)]
+        public void PassingTest99(int value)
         {
             Assert.True(true);
         }
