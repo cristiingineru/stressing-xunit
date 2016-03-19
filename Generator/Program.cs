@@ -11,19 +11,19 @@ namespace Generator
     {
         static void Main(string[] args)
         {
-            var factCount = 3;
+            var testCount = 3;
             var file = @"..\..\..\WithGeneratedContent\Generated.cs";
 
-            var fileContent = Generate(factCount);
+            var fileContent = Generate(testCount);
 
             File.Delete(file);
             File.WriteAllText(file, fileContent);
         }
 
-        private static string Generate(int factCount)
+        private static string Generate(int testCount)
         {
             var testMethods = Enumerable
-                .Range(0, factCount)
+                .Range(0, testCount)
                 .Select(GenerateTestMethod)
                 .Aggregate(string.Empty, string.Concat);
 
