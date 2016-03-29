@@ -11,7 +11,7 @@ namespace Generator
     {
         static void Main(string[] args)
         {
-            var theoryCount = 100;
+            var theoryCount = 3;
             var inlineDataCountForEachTheory = 5;
             var file = @"..\..\..\WithGeneratedContent\Generated.cs";
 
