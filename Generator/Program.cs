@@ -11,7 +11,7 @@ namespace Generator
     {
         static void Main(string[] args)
         {
-            var factCount = 300;
+            var factCount = 3;
             var file = @"..\..\..\WithGeneratedContent\Generated.cs";
 
             var fileContent = Generate(factCount);
