@@ -30,6 +30,7 @@ namespace StaticTestProject
                         .Select(i => new object[] { i.ToString(), true })
                         .ToList();
                 }
+                System.IO.File.AppendAllText("TestValuesCalls.txt", System.DateTime.Now.ToShortTimeString() + System.Environment.NewLine);
                 return _testValues;
             }
         }
