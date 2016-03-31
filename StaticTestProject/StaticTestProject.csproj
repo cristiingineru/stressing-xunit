@@ -62,6 +62,7 @@
     <Compile Include="MyFirstTheory.cs" />
     <Compile Include="MyFirstTheoryWithPropertyData.cs" />
     <Compile Include="MyFirstUnitTests.cs" />
+    <Compile Include="MySlowTheory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -2,35 +2,31 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using Xunit;
-using Xunit.Extensions;
 
 namespace StaticTestProject
 {
-    public class MyFirstTheoryWithPropertyData
+    public class MySlowTheory
     {
         [Theory]
-        [MemberData("TestValues")]
+        [MemberData("TestValuesOfMySlowTheory")]
         public void SplitCount(string val1, bool val2)
         {
             Assert.True(true);
         }
 
-        private static List<object[]> _testValues = null;
-
-        public static IEnumerable<object[]> TestValues
+        public static IEnumerable<object[]> TestValuesOfMySlowTheory
         {
             get
             {
-                if (_testValues == null)
-                {
-                    _testValues = Enumerable
+                var _testValues = Enumerable
                         .Range(0, 3)
                         .Select(i => new object[] { i.ToString(), true })
                         .ToList();
-                }
-                System.IO.File.AppendAllText("TestValuesCalls.txt", System.DateTime.Now.ToLongTimeString() + " -> just returning the test values" + System.Environment.NewLine);
+                System.IO.File.AppendAllText("TestValuesCalls.txt", System.DateTime.Now.ToLongTimeString() + " -> about to Thread.Sleep(something) and then return the test values" + System.Environment.NewLine);
+                Thread.Sleep(30000);
                 return _testValues;
             }
         }
