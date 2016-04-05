@@ -26,7 +26,7 @@ namespace StaticTestProject
                         .Select(i => new object[] { i.ToString(), true })
                         .ToList();
                 System.IO.File.AppendAllText("TestValuesCalls.txt", System.DateTime.Now.ToLongTimeString() + " -> about to Thread.Sleep(something) and then return the test values" + System.Environment.NewLine);
-                Thread.Sleep(30000);
+                Thread.Sleep(15000);
                 return _testValues;
             }
         }
