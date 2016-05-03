@@ -5,10 +5,10 @@ I was curious to see how xUnit behaves under stressing conditions so I generated
 Most of the benchmarks were generated and run on my personal laptop, but soon I realized the memory is a serious bottle neck so in order to have conclusive results some of the benchmarks were (re)run on a more powerfull machine. Each test is one line long containing a single Assert.IsTrue(true) or Assert.True(true) depending on which framework is being benchmarked. There is no actual production code being tested or instrumented.
  
 Here are some examples on how the generated tests look like:
-* [[Fact]](../blob/facts/WithGeneratedContent/Generated.cs)
-* [[TestMethod]](../blob/testmethods/WithGeneratedContent/Generated.cs)
-* [[Theory, InlineData()]](../blob/theories-with-inlinedata/WithGeneratedContent/Generated.cs)
-* [[Theory, MemberData()]](../blob/theories-with-memberdata/WithGeneratedContent/Generated.cs)
+* [[Fact]](../facts/WithGeneratedContent/Generated.cs)
+* [[TestMethod]](../testmethods/WithGeneratedContent/Generated.cs)
+* [[Theory, InlineData()]](../theories-with-inlinedata/WithGeneratedContent/Generated.cs)
+* [[Theory, MemberData()]](../theories-with-memberdata/WithGeneratedContent/Generated.cs)
  
 ### The versions used to run these benchmarks
 * Visual Studio 2015 14.0.23107.0
